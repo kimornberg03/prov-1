@@ -1,8 +1,8 @@
-let newCity = "stockholm"
+let newCity = "Stockholm"
 
 console.log(makeCity(newCity))
 
 function makeCity() {
-    let object = { Name: "Stockholm", Population: 0 }
+    let object = { name: "Stockholm", population: 0 }
     return object
 }
